@@ -7,7 +7,7 @@ const PORT = 3001;
 
 app.use(cors(
   {
-    origin:'http://localhost:3000',
+    origin:'https://splendid-gumdrop-3a6b2a.netlify.app/',
     methods:["GET"]
   }
 ));
